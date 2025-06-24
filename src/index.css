@@ -94,6 +94,22 @@
            hover:from-green-500 hover:to-green-700 focus:ring-green-400;
   }
 
+  .minecraft-btn-danger {
+    @apply bg-red-600 hover:bg-red-500 border-red-800 border-b-4 hover:border-b-2 hover:translate-y-0.5;
+  }
+
+  .minecraft-btn-secondary {
+    @apply bg-gray-600 hover:bg-gray-500 border-gray-800 border-b-4 hover:border-b-2 hover:translate-y-0.5;
+  }
+
+  .minecraft-btn-danger {
+    @apply bg-red-600 hover:bg-red-500 border-red-800 border-b-4 hover:border-b-2 hover:translate-y-0.5;
+  }
+
+  .minecraft-btn-secondary {
+    @apply bg-gray-600 hover:bg-gray-500 border-gray-800 border-b-4 hover:border-b-2 hover:translate-y-0.5;
+  }
+
   .minecraft-block {
     @apply bg-gradient-to-br shadow-lg border-2 p-6 transition-transform duration-200 hover:scale-105;
     image-rendering: pixelated;

@@ -2,6 +2,7 @@ import MinecraftHero from "@/components/MinecraftHero";
 import ModpackFeatures from "@/components/ModpackFeatures";
 import InstallationGuide from "@/components/InstallationGuide";
 import SystemRequirements from "@/components/SystemRequirements";
+import AdminPanel from "@/components/AdminPanel";
 
 const Index = () => {
   return (
@@ -10,6 +11,7 @@ const Index = () => {
       <ModpackFeatures />
       <InstallationGuide />
       <SystemRequirements />
+      <AdminPanel />
     </div>
   );
 };
